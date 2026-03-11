@@ -1,0 +1,22 @@
+{
+  "name": "endpoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon Src/app.js",
+    "start": "node Src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
